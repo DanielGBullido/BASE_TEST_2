@@ -4,7 +4,7 @@
 
 <br/>
 
-# Gatsby Starter Novela
+# Gatsby Starter Novela [Template found by Lola]
 
 With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Gatsby.
 
@@ -28,36 +28,25 @@ This guide will take you through setting up Novela with Gatsby Starter Novela.
 
 ### Step 1: Starter installation
 
-##### With `gatsby-cli`:
-
-```sh
-gatsby new novela-site https://github.com/narative/gatsby-starter-novela
-```
-
-##### With `git clone`:
-
-```sh
-git clone git@github.com:narative/gatsby-starter-novela.git novela-site
-
-cd novela-site
-
-yarn
-```
+- Clone the repo
+- Make sure to have installed Gatsby, npm and anything required as you attemp to run the repo
 
 ### Step 2: Develop & Build
 
 Once installed or cloned locally and all packages are installed you can begin developing your site.
 
 ```sh
-# Run localhost
+# Run & Build locally localhost
 gatsby clean
 gatsby develop
+```
+Visit the blog at: http://localhost:8000/blog/
 
-# Build your Gatsby site
+```
+# Deploy the site 
 npm run deploy
 aws s3 sync s3://gatsby-web s3://get-base.com
 ```
-
 ### Help
 
 For more information visit the [Theme repository](https://github.com/narative/gatsby-theme-novela)
