@@ -5,6 +5,7 @@ import {graphql, useStaticQuery} from "gatsby";
 import Section from "@components/Section";
 import SocialLinks from "@components/SocialLinks";
 import FooterList from "@components/FooterList";
+import FooterSubscription from "@components/FooterSubscription";
 
 import mediaqueries from "@styles/media";
 
@@ -87,6 +88,7 @@ const Footer: React.FC<{}> = () => {
         <Section narrow>
           <FooterContainer>
             <FooterList data={dataList} />
+            <FooterSubscription/>
           </FooterContainer>
           <FooterContainer>
             <FooterText>
