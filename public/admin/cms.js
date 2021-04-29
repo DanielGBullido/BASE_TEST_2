@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "3657c4fb0b655d7a92b5";
+/******/ 	var hotCurrentHash = "3e390a0db0f446484c0b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -933,8 +933,8 @@ setImmediate(function () {
     return;
   }
 
-  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/lolapriego/codebases/blog/novela-site/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/lolapriego/codebases/blog/novela-site/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/danielgbullido/Desktop/BASE_code_test/test_2/blog-challenge/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/danielgbullido/Desktop/BASE_code_test/test_2/blog-challenge/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 })();
 
 ;
@@ -1005,8 +1005,8 @@ _netlifyCmsApp.default.registerPreviewStyle("cms.css");
     return;
   }
 
-  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/lolapriego/codebases/blog/novela-site/node_modules/gatsby-plugin-netlify-cms/cms.js");
-  reactHotLoader.register(_emitter, "_emitter", "/Users/lolapriego/codebases/blog/novela-site/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/danielgbullido/Desktop/BASE_code_test/test_2/blog-challenge/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_emitter, "_emitter", "/Users/danielgbullido/Desktop/BASE_code_test/test_2/blog-challenge/node_modules/gatsby-plugin-netlify-cms/cms.js");
 })();
 
 ;
@@ -1653,8 +1653,8 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/lolapriego/codebases/blog/novela-site/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-module.exports = __webpack_require__(/*! /Users/lolapriego/codebases/blog/novela-site/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+__webpack_require__(/*! /Users/danielgbullido/Desktop/BASE_code_test/test_2/blog-challenge/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+module.exports = __webpack_require__(/*! /Users/danielgbullido/Desktop/BASE_code_test/test_2/blog-challenge/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 
 
 /***/ }),

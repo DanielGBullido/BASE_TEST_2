@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 import mediaqueries from "@styles/media";
 
-const Section = styled.section<{ narrow?: boolean }>`
+const Section = styled.section<{ narrow?: boolean, fullwidth?: boolean }>`
   width: 100%;
   max-width: 1220px;
   margin: 0 auto;
@@ -11,7 +11,9 @@ const Section = styled.section<{ narrow?: boolean }>`
   ${mediaqueries.desktop`
     max-width: 850px;
   `};
-
+  
+  ${section => section.fullwidth ? 'max-width: 100%;' : 'max-width: 1220px;'};
+ 
   ${p =>
     p.narrow
       ? mediaqueries.tablet`
