@@ -25,7 +25,6 @@ const ArticlesPage: Template = ({ location, pageContext }) => {
           <Paginator {...pageContext} />
         </ArticlesPaginator>
       </Section>
-      <ArticlesGradient />
     </Layout>
   );
 };
